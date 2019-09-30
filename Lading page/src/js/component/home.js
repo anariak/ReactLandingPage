@@ -1,8 +1,8 @@
 import React from "react";
 import Jumbotron from "./Jumbotron";
 import Card from "./Cards";
-import header from "./Navbar";
-import footer from "./footer";
+import Navbar from "./Navbar";
+import Footer from "./footer";
 //include images into your bundle
 
 //create your first component
@@ -10,7 +10,7 @@ export class Home extends React.Component {
 	render() {
 		return (
 			<div className="text-center mt-5">
-				<header />
+				<Navbar />
 				<Jumbotron
 					jum_tile="A Warm Welcome!"
 					jum_body="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa,
@@ -44,7 +44,7 @@ export class Home extends React.Component {
 					card_footer="Find Out More!"
 				/>
 
-				<footer />
+				<Footer />
 			</div>
 		);
 	}

@@ -2,7 +2,7 @@ import React from "react";
 
 // Footer
 
-const footer = props => {
+const Footer = props => {
 	return (
 		<footer className="py-5 bg-dark">
 			<div className="container">
@@ -14,4 +14,4 @@ const footer = props => {
 	);
 };
 
-export default footer;
+export default Footer;
